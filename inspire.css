@@ -59,6 +59,28 @@ body {
 }
 
 /**
+	Headers/Footers
+ */
+#header-left {
+	position: fixed;
+	top: .2em;
+	left: .5em;
+	z-index: 1010;
+}
+#footer-left {
+	position: fixed;
+	bottom: .2em;
+	left: .5em;
+	z-index: 1010;
+}
+#footer-right {
+	position: fixed;
+	bottom: .2em;
+	right: .5em;
+	z-index: 1010;
+}
+
+/**
 	Slide numbers
  */
 #indicator {
